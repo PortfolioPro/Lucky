@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 3.2vw;
+  font-weight: normal;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f2f2;
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3.2vw;
+}
+
+.header {
+  padding: 3.2vw;
+  background-color: #ccaf66;
+  border-top-left-radius: 0.8vw;
+  border-top-right-radius: 0.8vw;
+}
+
+.name {
+  text-align: right;
+}
+
+.name h1 {
+  font-weight: bold;
+}
+
+.content {
+  padding: 3.2vw;
+  background-color: #dad9d7;
+  border-bottom-right-radius: 0.8vw;
+  border-bottom-left-radius: 0.8vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 59.2vw;
+  height: 11.2vw;
+  background-color: #f3f2f2;
+  border-radius: 5.6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ballot {
+  width: 8vw;
+  height: 8vw;
+  text-align: center;
+  font-weight: bold;
+  line-height: 8vw;
+  background-color: #a9a5a2;
+  border-radius: 50%;
+  margin-right: 1.6vw;
+  visibility: hidden;
+}
+
+.ballot5 {
+  background-color: #ccaf66;
+}
+
+.ballot:first-child {
+  margin-left: 1.6vw;
+}
+
+.controls {
+  padding-top: 3.2vw;
+}
+
+.draw {
+  font-weight: bold;
+  padding: 1.6vw 3.2vw;
+  background-color: #ccaf66;
+  border: none;
+  border-radius: 0.8vw;
+}
+
+.footer {
+  padding-top: 1.6vw;
+}
+
+.credits {
+  text-align: right;
+}
+
+.credits span {
+  font-size: 2.8vw;
+}
+
+@media only screen and (min-width: 500px) {
+  * {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .main {
+    padding: 16px;
+  }
+
+  .header {
+    padding: 16px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .content {
+    padding: 16px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  .display {
+    width: 296px;
+    height: 56px;
+    border-radius: 28px;
+  }
+
+  .ballot {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 8px;
+  }
+
+  .ballot:first-child {
+    margin-left: 8px;
+  }
+
+  .controls {
+    padding-top: 16px;
+  }
+
+  .draw {
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
+
+  .footer {
+    padding-top: 8px;
+  }
+
+  .credits span {
+    font-size: 14px;
+  }
+}
